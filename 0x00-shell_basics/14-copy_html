@@ -1,0 +1,6 @@
+#!/bin/bash
+# Set the source and destination directories
+src_dir=$(pwd)
+dest_dir=$(dirname "$src_dir")
+# Copy all HTML files to the destination directory
+cp -u "$src_dir"/*.html "$dest_dir"
