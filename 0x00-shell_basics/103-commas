@@ -1,2 +1,0 @@
-#!/bin/bash
-ls -1Ap sed '1d'  awk '{printf "%s,",$0} END {print ""}'
